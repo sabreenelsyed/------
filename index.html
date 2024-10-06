@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستشفى الشفاء</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مستشفى الشفاء</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#about">عن المستشفى</a></li>
+                    <li><a href="#services">الخدمات الطبية</a></li>
+                    <li><a href="#doctors">الأطباء</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h2>نحن هنا لخدمتك الصحية</h2>
+            <p>رعاية طبية على أعلى مستوى</p>
+            <a href="#services" class="btn">استكشاف الخدمات</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>عن المستشفى</h2>
+        <p>مستشفى الشفاء تقدم خدمات طبية متكاملة مع فريق من الأطباء المتخصصين لتوفير أفضل رعاية صحية للمرضى.</p>
+    </section>
+
+    <section id="services" class="container">
+        <h2>الخدمات الطبية</h2>
+        <ul>
+            <li>قسم الطوارئ</li>
+            <li>الجراحة العامة</li>
+            <li>العلاج الطبيعي</li>
+            <li>طب الأطفال</li>
+        </ul>
+    </section>
+
+    <section id="doctors" class="container">
+        <h2>الأطباء</h2>
+        <div class="doctor-list">
+            <div class="doctor">
+                <h3>د. أحمد محمد</h3>
+                <p>استشاري جراحة عامة</p>
+            </div>
+            <div class="doctor">
+                <h3>د. ليلى علي</h3>
+                <p>استشارية طب الأطفال</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>اتصل بنا</h2>
+        <form action="#">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 مستشفى الشفاء. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
